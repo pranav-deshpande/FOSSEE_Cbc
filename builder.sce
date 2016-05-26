@@ -32,7 +32,7 @@ link(lib_path + '/libCbc.so');
 link(lib_path + '/libCbcSolver.so');
 link(lib_path + '/libOsiCbc.so');
     
-exec (path + 'loader.sce');
+exec loader.sce;
 exec (sci_path + 'cbcintlinprog.sci');
 exec (sci_path + 'matrix_cbcintlinprog.sci');
 exec (sci_path + 'mps_cbcintlinprog.sci');
