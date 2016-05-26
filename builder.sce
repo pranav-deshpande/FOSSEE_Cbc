@@ -9,6 +9,8 @@ include_path = path + 'build/Cbc/include/coin';
 lib_path = path + 'build/Cbc/lib';
 sci_path = path + 'build/Scilab/';
 cpp_path = path + 'build/cpp/'
+mkdir path + 'help';
+mkdir path + 'demos/'
 help_dir = path + 'help/'
 demos_dir = path + 'demos/'
 
@@ -32,7 +34,7 @@ link(lib_path + '/libCbc.so');
 link(lib_path + '/libCbcSolver.so');
 link(lib_path + '/libOsiCbc.so');
     
-exec loader.sce;
+exec (path + 'loader.sce');
 exec (sci_path + 'cbcintlinprog.sci');
 exec (sci_path + 'matrix_cbcintlinprog.sci');
 exec (sci_path + 'mps_cbcintlinprog.sci');
