@@ -1,6 +1,6 @@
 # FOSSEE_Cbc
 This is to connect the CBC library to Scilab and help solve MILP Problems.  
-Authors: Akshay Miterani and Pranav Deshpande
+Code Authors: Akshay Miterani and Pranav Deshpande
 
 Organization: FOSSEE, IIT Bombay
 
