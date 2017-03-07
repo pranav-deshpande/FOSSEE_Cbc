@@ -7,4 +7,6 @@ Organization: FOSSEE, IIT Bombay
 Run the builder.sce file to set up everything(including the demo and help files).
 The examples are in the test directory. 
 
-This toolbox only works on 64 bit Linux systems.
+This toolbox only works on 64 bit Linux systems.  
+
+![cbcintlinprog](https://github.com/universecoder/FOSSEE_Cbc/blob/master/cbcintlinprog.png)
